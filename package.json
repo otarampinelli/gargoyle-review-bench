@@ -1,0 +1,14 @@
+{
+  "name": "shopkit",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Orders, stock and payments API for small shops",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/main.ts",
+    "test": "node --test 'test/**/*.test.ts'"
+  }
+}
